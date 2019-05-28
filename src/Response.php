@@ -1,7 +1,7 @@
 <?php
 namespace XmlApiClient;
 
-class Response {
+class XmlApiResponse {
     var $resp;
 
     function __construct($resp) {
