@@ -4,7 +4,7 @@ namespace XmlApiClient;
 
 use SimpleXMLElement;
 
-class Request {
+class XmlApiRequest {
     var $host;
     var $port;
 
