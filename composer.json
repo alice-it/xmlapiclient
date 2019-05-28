@@ -2,7 +2,7 @@
     "name": "alice-it/xmlapiclient",
     "description": "A php client to connect to an xml api and parse response to json",
     "type": "library",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "require": {
         "php": ">=5.5",
         "ext-simplexml": "*"
