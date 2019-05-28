@@ -1,0 +1,22 @@
+{
+    "name": "alice-it/xmlapiclient",
+    "description": "A php client to connect to an xml api and parse response to json",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.5"
+    }
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alice-IT GmbH & Co. KG",
+            "email": "schmolke@alice-it.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "XmlApiClient\\": "src/"
+        }
+    }
+}
