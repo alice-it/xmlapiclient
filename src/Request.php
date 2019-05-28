@@ -1,4 +1,7 @@
 <?php
+
+use SimpleXMLElement;
+
 class httpRequest {
     var $host;
     var $port;
