@@ -1,6 +1,6 @@
 <?php
 
-namespace XmlApiClient;
+namespace AliceIT\XmlApiRequest;
 
 use SimpleXMLElement;
 

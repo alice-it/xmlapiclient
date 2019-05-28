@@ -1,5 +1,5 @@
 <?php
-namespace XmlApiClient;
+namespace AliceIT\XmlApiRequest;
 
 class XmlApiResponse {
     var $resp;
@@ -29,7 +29,7 @@ class XmlApiResponse {
         return trim($body);
     }
 
-    function array(){
+    function to_array(){
         $body = explode('<', trim($this->body()), 2);
         $body = trim('<'.$body[1]);
         $body = simplexml_load_string($body);
