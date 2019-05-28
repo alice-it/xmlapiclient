@@ -1,8 +1,10 @@
 <?php
 
+namespace XmlApiClient;
+
 use SimpleXMLElement;
 
-class httpRequest {
+class Request {
     var $host;
     var $port;
 
